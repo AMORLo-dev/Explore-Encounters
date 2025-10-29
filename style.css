@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Badeen Display", system-ui;
+}
+header{
+    position: relative;
+    background: rgba(11, 25, 2, 1);
+    height: 160px;
+}
+.container{
+    color: var(--theme-text, rgba(157, 224, 63, 1));
+    margin: 0px auto;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: font/primary-family;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.header__png{
+    width: 50px;
+}
+.header__left{
+    display: flex;
+}
+.header__button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgba(11, 25, 2, 1);
+    border: 1px solid rgba(157, 224, 63, 1);
+    color: var(--theme-text, rgba(157, 224, 63, 1));
+    border-radius: 5px;
+}
+.header__button:hover{
+    transform: scale(1.1);
+}
+.hero{
+    height: 590px;
+    background: rgba(11, 25, 2, 1);
+    background-image: url("./assets/eb62ec78ab7bc5944c42aff7d3f054336c3fc8da.png") , url("./assets/Vector.png");
+    background-size: 1000px , 500px;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 270px) calc(0% - 0px);
+    
+
+}
+.hero__container{
+    color: rgba(157, 224, 63, 1);
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+    font-style: Regular;  
+    height: 590px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.hero__info{
+    margin-left: 150px;
+}
+.hero__text{
+    font-size: 15px;
+}
+.button{
+    color: rgba(11, 25, 2, 1);
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgba(157, 224, 63, 1);
+    border-radius: 5px;
+}
+.hero__button:hover{
+    transform: scale(1.01);
+}
+.closer__container{
+    
+}
